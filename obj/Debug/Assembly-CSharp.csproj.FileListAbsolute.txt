@@ -1,0 +1,2 @@
+/Users/david/Documents/UNI/Bachelorarbeit/TestRuns/Unity/Domkrypta_zu_Speyer/obj/Debug/Assembly-CSharp.csprojAssemblyReference.cache
+/Users/david/Documents/UNI/Bachelorarbeit/TestRuns/Unity/Domkrypta_zu_Speyer/obj/Debug/Assembly-CSharp.csproj.CoreCompileInputs.cache

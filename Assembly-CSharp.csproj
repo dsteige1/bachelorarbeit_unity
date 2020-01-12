@@ -64,6 +64,9 @@
   <ItemGroup>
     <Compile Include="Assets\Scripts\CameraMouse.cs" />
     <Compile Include="Assets\Scripts\CharacterControl.cs" />
+    <Compile Include="Assets\Scripts\EventTest.cs" />
+    <Compile Include="Assets\Scripts\MaterialChanger.cs" />
+    <Compile Include="Assets\Scripts\Rotator.cs" />
     <Reference Include="Unity.Timeline.Editor">
       <HintPath>/Users/david/Documents/UNI/Bachelorarbeit/TestRuns/Unity/Domkrypta_zu_Speyer/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
     </Reference>
