@@ -28,12 +28,10 @@ public class CharacterControl : MonoBehaviour
 
         transform.Translate(straffe, 0, translation);
 
-
         /* Catch a fall 'off the world' in case I missed a collider somewhere */
 
         if (transform.position.y < (-10))
             SceneManager.LoadScene("MainScene");
-
 
         /* Check if the Cursor is locked / made invisible
          * If so unlock to be able to interact / trigger

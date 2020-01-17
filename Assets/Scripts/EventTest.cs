@@ -6,14 +6,6 @@ public class EventTest : MonoBehaviour
 {
     public bool eventHit = false;
 
-    private void Start()
-    {
-    }
-
-    void Update()
-    {
-    }
-
     public void TestEvent()
     {
         Debug.Log("Der Hit!");
