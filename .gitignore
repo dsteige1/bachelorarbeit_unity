@@ -3,5 +3,6 @@ Logs/
 
 # Library only contains cached data which can be re-generated from the assets and their accompanying meta files
 # Library folder gets quite big after Builds (>100MB)
+
 Library/
 .vs/
