@@ -14,7 +14,6 @@ public class MaterialChanger : MonoBehaviour
         Meshrenderer = GetComponent<MeshRenderer>();
         //Get the original value to fall back to
         originalSmoothness = Meshrenderer.material.GetFloat("_Glossiness");
-        //mats = Meshrenderer.materials;
     }
 
     public void ChangeGloss()
@@ -25,7 +24,6 @@ public class MaterialChanger : MonoBehaviour
         {
             Meshrenderer.materials[i].SetFloat("_Glossiness", 1f);
         }
-        //Meshrenderer.material.SetFloat("_Glossiness", 1f);
     }
 
     public void RestoreGloss()
@@ -35,6 +33,5 @@ public class MaterialChanger : MonoBehaviour
         {
             Meshrenderer.materials[i].SetFloat("_Glossiness", originalSmoothness);
         }
-        //Meshrenderer.material.SetFloat("_Glossiness", originalSmoothness);
     }
 }
