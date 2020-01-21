@@ -1,7 +1,12 @@
 mergeInto(LibraryManager.library, {
 
   SendObjName: function (myVar) {
-    testHello(Pointer_stringify(myVar));
+    getObjInfo(Pointer_stringify(myVar));
     console.log("angekommen");
   },
+  
+  TutAnchor: function() {
+    jumpToTutorial();
+  },
+  
 });

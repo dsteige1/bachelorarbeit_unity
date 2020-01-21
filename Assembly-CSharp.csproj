@@ -67,6 +67,7 @@
     <Compile Include="Assets\Scripts\EventTest.cs" />
     <Compile Include="Assets\Scripts\JS_Connector.cs" />
     <Compile Include="Assets\Scripts\MaterialChanger.cs" />
+    <Compile Include="Assets\Scripts\MenuScript.cs" />
     <Compile Include="Assets\Scripts\MiniMap.cs" />
     <Compile Include="Assets\Scripts\Rotator.cs" />
     <Reference Include="Unity.Timeline.Editor">

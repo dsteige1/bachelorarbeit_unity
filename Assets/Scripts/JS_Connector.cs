@@ -13,7 +13,7 @@ public class JS_Connector : MonoBehaviour
 
     public void ClickForJS()
     {
-        Debug.Log(this.gameObject.name);
+        //Debug.Log(this.gameObject.name);
         SendObjName(this.gameObject.name);
     }
 }
