@@ -53,7 +53,7 @@ Hier wurde das [3D-Modell](https://github.com/dsteige1/bachelorarbeit_blender) d
 	- Static Batching:
 		- Alle Objekte, die mit _static batching_ getaggt sind, werden zusammengefasst und als ein Mesh gerendert
 		- Dies reduziert die _draw calls_ erheblich
-	![Static batching](URL)
+	![Static batching](https://github.com/dsteige1/bachelorarbeit_unity/blob/master/doc_imgs/batching.png =250x)
 	-	Ausschalten, dass die Applikation auch im Hintergrund läuft
 		-	Dadurch lädt die Seite später schneller, da die App dann nur performt, wenn sie im Fokus ist
 	- Ausschalten der Exceptions Supports
