@@ -13,11 +13,13 @@ public class MaterialChanger : MonoBehaviour
         //Get the Renderer Component
         Meshrenderer = GetComponent<MeshRenderer>();
         //Get the original value to fall back to
-        originalSmoothness = Meshrenderer.material.GetFloat("_Glossiness");
+        //originalSmoothness = Meshrenderer.material.GetFloat("_Glossiness");
     }
 
     public void ChangeGloss()
     {
+        //Get the original value to fall back to
+        originalSmoothness = Meshrenderer.material.GetFloat("_Glossiness");
         //Looping through material slots
         //With PointerEnter Trigger glossiness increases
         for (int i = 0; i < Meshrenderer.materials.Length; i++)

@@ -21,6 +21,12 @@ public class CharacterControl : MonoBehaviour
 
     void Update()
     {
+        /*
+         * Get Arrow-keys inputs and give them to transform-component
+         * multiply by Time.deltaTime, in order to ignore the framerate of the machine
+         * it's running on
+        */
+
         float translation = Input.GetAxis("Vertical") * characterSpeed;
         float straffe = Input.GetAxis("Horizontal") * characterSpeed;
         translation *= Time.deltaTime;
@@ -38,7 +44,8 @@ public class CharacterControl : MonoBehaviour
          * If not: Lock it, so the cursor cannot leave the game window
          * The cursor will be locked in the middle of the window, so everytime
          * the curdot gets unlocked, it'll appear in the center, which makes it easier to find 
-         * and to navigate / interact with the objects. */
+         * and to navigate / interact with the objects.
+        */
 
         if (Input.GetKeyDown("space"))
         {
