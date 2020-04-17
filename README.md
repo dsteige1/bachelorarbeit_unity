@@ -6,7 +6,7 @@ Hier wurde das [3D-Modell](https://github.com/dsteige1/bachelorarbeit_blender) d
 ## Aufbau und Funktionen
 ### Generell
  - Ziel war es, das fertige 3D-Modell nun erfahrbar zu machen
- - Dazu wurde das [fbx-Modell](https://github.com/dsteige1/bachelorarbeit_unity/tree/master/Assets/Models) in fünf Teilen –Mittelteil, Süd-/ und Nordflügel, Chrokrypta, Vorkrypta und Gruft – importiert, um etwas flexibler zu sein und bei Anpassungen nicht immer das ganze Modell neu importieren zu müssen
+ - Dazu wurde das [fbx-Modell](https://github.com/dsteige1/bachelorarbeit_unity/tree/master/Assets/Models) in sechs Teilen – Mittelteil, Süd-/ und Nordflügel, Chrokrypta, Vorkrypta und Gruft – importiert, um etwas flexibler zu sein und bei Anpassungen nicht immer das ganze Modell neu importieren zu müssen
  - Die fbx-Dateien wurden dabei immer direkt in den Assets-Ordner exportiert, da Unity eine Art Delta-Import unterstützt. So musste ich, wenn ich eine Teil wiederholt importiert habe, nicht alle Texturen und Komponenten neu zuordnen
 - Parallel dazu wurden die Texturen in Blender _gebaked_, nach Unity importiert und als [Materialien](https://github.com/dsteige1/bachelorarbeit_unity/tree/master/Assets/Materials)  angelegt
 
@@ -59,4 +59,4 @@ Hier wurde das [3D-Modell](https://github.com/dsteige1/bachelorarbeit_blender) d
 	- Ausschalten der Exceptions Supports
 		- Der Unity-Dokumentation nach hat dies auch positive Auswirungen auf die Performance
 
-Gebaut in der Unity-Version: 2019.2.12f1
+#### Erstellt mit der Unity-Version: 2019.2.12f1

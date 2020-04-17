@@ -5,6 +5,10 @@ using UnityEngine;
 public class MiniMap : MonoBehaviour
 {
 
+    /*
+     * Script inspired by Brackeys https://www.youtube.com/watch?v=28JTTXqMvOU
+    */
+
     public Transform player;
 
     private void LateUpdate()
@@ -15,5 +19,4 @@ public class MiniMap : MonoBehaviour
 
         transform.rotation = Quaternion.Euler(90f, player.eulerAngles.y, 0f);
     }
-
 }
