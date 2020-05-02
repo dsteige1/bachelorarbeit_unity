@@ -17,8 +17,6 @@ public class CharacterControl : MonoBehaviour
         Cursor.lockState = CursorLockMode.Locked;
     }
 
-    /* */
-
     void Update()
     {
         /*

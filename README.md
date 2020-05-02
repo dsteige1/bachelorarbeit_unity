@@ -49,7 +49,7 @@ Hier wurde das [3D-Modell](https://github.com/dsteige1/bachelorarbeit_blender) d
 	- _SendObjName_ ruft ich die externe _getObjInfo()_-Funktion auf und übergibt den Objektnamen – mit einem _Pointer_Stringify_, da sonst nur der int-Wert des Pointers übergeben werde würde
 	- _TutAnchor_ ruft die Funktion _jumpToTutorial()_ auf, durch die das html-Dokument zur Anleitung springt (gesteuert durch die WebGl-App)
 ## Performance
-- Die Performance hat zunächst nach dem Build große Probleme dargestellt. Man konnte kaum die App laden, ohne das die Lüftung des Computers lautstark anging, daher habe ich folgende Maßnahmen getroffen
+- Die Performance hat zunächst nach dem Build große Probleme dargestellt. Man konnte kaum die App laden, ohne dass die Lüftung des Computers lautstark anging, daher habe ich folgende Maßnahmen getroffen:
 	- Static Batching:
 		- Alle Objekte, die mit _static batching_ getaggt sind, werden zusammengefasst und als ein Mesh gerendert
 		- Dies reduziert die _draw calls_ erheblich
